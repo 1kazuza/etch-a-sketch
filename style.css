@@ -1,20 +1,38 @@
-button {
+body {
+    background-color: #000000;
+    color: #ffff00;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: 2px 2px #0000ff;
+}
+
+.b-properties {
+    background-color: #0f0f0d;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 90%;
+    color: #ff0000;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
     margin: 0;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 45%;
 }
 
-.grid {
+.b-properties:hover {
+    background-color: #ffff00;
+}
+
+.g_properties {
+    display: block;
     max-width: 500px;
     max-height: 500px;
-    display: grid;
-    border: 2px solid #0000ff;
-    margin: 2rem auto;
+    border: 2px solid #ffffff;
+    margin: 120px auto;
 }
 
-.grid_properties {
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
-
-}

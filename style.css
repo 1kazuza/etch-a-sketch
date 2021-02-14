@@ -26,13 +26,17 @@ h1 {
 
 .b-properties:hover {
     background-color: #ffff00;
+    cursor: pointer;
 }
 
 .g-properties {
-    display: block;
-    max-width: 500px;
-    max-height: 500px;
-    border: 2px solid #ffffff;
-    margin: 120px auto;
+    display: grid;
+    max-width: 600px;
+    max-height: 600px;
+    border: 2px solid #00ffff;
+    margin: 120px auto;    
 }
 
+.active {
+    background-image: linear-gradient(magenta, purple, magenta);
+}

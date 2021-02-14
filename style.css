@@ -1,7 +1,20 @@
-body{
-    background-color: #1E90FF;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 150%;
-    text-align: center;
-    text-shadow: 2px 2px;
+button {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+.grid {
+    max-width: 500px;
+    max-height: 500px;
+    display: grid;
+    border: 2px solid #0000ff;
+    margin: 2rem auto;
+}
+
+.grid_properties {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+
 }
